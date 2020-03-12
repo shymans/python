@@ -19,3 +19,6 @@ print(6 % 4) # = 2 (What is left after I take 4 out of 6)
 
 print(round(3.1)) #rounding a number up or down
 print(abs(-20)) #absolute value of a number, no negatives
+
+print(bin(5)) #binary number for 5
+print(int('0b101', 2)) #converts a binary number into an integer
