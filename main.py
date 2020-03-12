@@ -15,4 +15,7 @@ print(2 ** 3) # = 8 (2x2x2)
 print(5 // 4) # = 1 (how many times can 4 go into 5)
 print(6 % 4) # = 2 (What is left after I take 4 out of 6)
 
+#Math Functions
 
+print(round(3.1)) #rounding a number up or down
+print(abs(-20)) #absolute value of a number, no negatives
