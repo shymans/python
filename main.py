@@ -22,3 +22,14 @@ print(abs(-20)) #absolute value of a number, no negatives
 
 print(bin(5)) #binary number for 5
 print(int('0b101', 2)) #converts a binary number into an integer
+
+iq = 190 # iq is a variable, with a value of 190
+print(iq)
+
+user_age = iq / 4
+a = user_age
+a,b,c = 1,2,3 #easy way to assign multiple variables
+
+#constants
+PI = 3.14 # full capital variable names means it is a constant, won't change
+
