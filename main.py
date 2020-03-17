@@ -30,6 +30,23 @@ user_age = iq / 4
 a = user_age
 a,b,c = 1,2,3 #easy way to assign multiple variables
 
-#constants
+#constant
 PI = 3.14 # full capital variable names means it is a constant, won't change
+
+#augmented assignment operator
+some_value = 5
+some_value += 2 # instead of having to call some_value again
+
+#strings
+"Hey there"
+username = "supercoder"
+password = "supersecret"
+long_string = '''
+Oh WOW
+This is crazy!
+Really cool
+'''
+# the 3 single quotes allows for multi line strings
+print(long_string)
+
 
