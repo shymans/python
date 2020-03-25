@@ -51,3 +51,24 @@ print(long_string)
 
 #from the linux machine!
 #with the ssh set up!
+
+#string concatenation and type conversion
+print(type(int(str(100)))) #would print out int because it was the last conversion
+print("hey" + "There")
+
+#escape sequences, /t at the start gives a tab, /n starts a new line
+weather = "\t It\'s \"kind of\" sunny \n hope you have a good day!"
+print(weather)
+
+#formatted strings
+name = 'Johnny'
+age = 55
+print('hi ' + name '. You are ' + str(age) + ' year old')
+print(f'hi {name}. You are {age} years old') #much cleaner option
+print('hi {}. You are {} years old'.format(name, age)) #python 2 function
+
+
+
+
+
+
