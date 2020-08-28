@@ -80,3 +80,9 @@ print('hi {}. You are {} years old'.format(name, age)) #python 2 function
 birth_year = input('what year were you born?')
 agre = 2020 - int(birth_year)
 print(f'your age is: {age}')
+
+username1 = input('what is your username?')
+password1 = input('what is your password?')
+password_length = len(password1)
+stars_password = '*' * password1
+print(f'Hello {username1}, your password {stars_password}, is {password_length} letters long')
