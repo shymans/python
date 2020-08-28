@@ -11,7 +11,7 @@ amazon_cart = [
 	'grapes'
 ]
 amazon_cart[0] = 'laptop'
-print(amazon_cart[0::2])
+#print(amazon_cart[0::2])
 new_cart = amazon_cart[:]
 # amazon_cart stays the same and new_cart makes a copy of it using [:]
 
@@ -26,9 +26,23 @@ basket.remove(3) #removes specific value
 # print(basket)
 
 bag = ['a','b','c','d','e','d']
-print(bag.index('d', 0, 4))
-print('d' in bag)
+#print(bag.index('d', 0, 4))
+#print('d' in bag)
 bag.count('d')
 bag.sort() #organizes actual list
 sorted(bag) #creates new copy of the bag and sorts it
 bag.reverse()
+
+#print(list(range(100)))
+words = ' '.join(['hi', 'my', 'name', 'is', 'Jojo'])
+print(words)
+
+
+#list unpacking
+a,b,c *other, d = [1,2,3,4,5,6,7,8,9]
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
+
