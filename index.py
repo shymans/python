@@ -22,5 +22,13 @@ basket.extend([300])
 basket.pop() #removes the last item in the list
 basket.pop(0) #removes the specific index
 basket.remove(3) #removes specific value
-basket.clear() #removes everything in the list
-print(basket)
+# basket.clear() #removes everything in the list
+# print(basket)
+
+bag = ['a','b','c','d','e','d']
+print(bag.index('d', 0, 4))
+print('d' in bag)
+bag.count('d')
+bag.sort() #organizes actual list
+sorted(bag) #creates new copy of the bag and sorts it
+bag.reverse()
