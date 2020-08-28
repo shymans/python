@@ -77,7 +77,3 @@ print('hi ' + name '. You are ' + str(age) + ' year old')
 print(f'hi {name}. You are {age} years old') #much cleaner option
 print('hi {}. You are {} years old'.format(name, age)) #python 2 function
 
-test
-
-
-
