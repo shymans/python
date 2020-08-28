@@ -32,3 +32,4 @@ bag.count('d')
 bag.sort() #organizes actual list
 sorted(bag) #creates new copy of the bag and sorts it
 bag.reverse()
+
