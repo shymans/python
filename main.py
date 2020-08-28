@@ -51,3 +51,13 @@ print(long_string)
 
 #from the linux machine!
 #with the ssh set up!
+
+selfish = "me me me"
+print(selfish[::-1])
+print(selfish[0:5])
+# start:stop:stepover
+
+print(len('heeelllllooooo'))
+quote = "to be or not to be"
+print(quote.upper())
+quote.replace('be', 'me')
