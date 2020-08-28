@@ -77,3 +77,6 @@ print('hi ' + name '. You are ' + str(age) + ' year old')
 print(f'hi {name}. You are {age} years old') #much cleaner option
 print('hi {}. You are {} years old'.format(name, age)) #python 2 function
 
+birth_year = input('what year were you born?')
+agre = 2020 - int(birth_year)
+print(f'your age is: {age}')
